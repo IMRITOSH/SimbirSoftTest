@@ -38,7 +38,7 @@ public class CheckSuccessfulPurchaseTest {
     }
 
     @Test
-    public void testMain() {
+    public void checkSuccessfulPuchase() {
         try {
             pageProducts.clickWebElement(pageProducts.getAddToCartButton());
 
@@ -69,7 +69,7 @@ public class CheckSuccessfulPurchaseTest {
     }
 
     @AfterAll
-    public static void after() {
+    public static void tear() {
         driver.quit();
     }
 }

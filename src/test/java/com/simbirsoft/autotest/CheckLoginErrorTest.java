@@ -26,7 +26,7 @@ class CheckLoginErrorTest {
     }
 
     @Test
-    void main() {
+    void userNameDoNotMatchAnyUser() {
         pageLogin.login("test", "test");
         String message = driver.findElement(By.xpath("//h3[@data-test='error']")).getText();
 
