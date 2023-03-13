@@ -1,0 +1,6 @@
+com\simbirsoft\autotest\pages\PageCheckout.class
+com\simbirsoft\autotest\CheckSuccessfulPurchase.class
+com\simbirsoft\autotest\pages\PageProducts.class
+com\simbirsoft\autotest\pages\PageYourCart.class
+com\simbirsoft\autotest\CheckLoginError.class
+com\simbirsoft\autotest\pages\PageLogin.class
